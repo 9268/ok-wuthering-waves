@@ -1,0 +1,28 @@
+[
+  {
+    "algo": "surf",
+    "params": {
+      "hessian": 40,
+      "octaves": 8,
+      "layers": 4,
+      "extended": true,
+      "upright": true,
+      "grid": 150,
+      "max_per_cell": 200,
+      "ratio": 0.62,
+      "max_dist": 0.50
+    }
+  },
+  {
+    "algo": "sift",
+    "params": {
+      "contrast_threshold": 0.02,
+      "edge_threshold": 7,
+      "n_octave_layers": 5,
+      "sigma": 1.6,
+      "grid": 150,
+      "max_per_cell": 200,
+      "ratio": 0.75
+    }
+  }
+]
